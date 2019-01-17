@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:layout_marginTop="15dp"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginStart="10dp" android:layout_marginEnd="10dp"
+              android:text="Question number 1, Mr. Speaker."
+              android:padding="3dp" android:gravity="center"
+              android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+              android:textColor="@android:color/black" app:layout_constraintTop_toTopOf="parent"
+              android:id="@+id/textView"/>
+
+    <ProgressBar style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                 android:layout_width="match_parent" android:layout_height="30dp" android:layout_marginBottom="15dp"
+                 app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="10dp"
+                 android:layout_marginEnd="10dp" android:max="45" android:visibility="visible"/>
+
+
+</android.support.constraint.ConstraintLayout>
